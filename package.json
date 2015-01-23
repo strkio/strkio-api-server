@@ -20,7 +20,7 @@
     "es6-shim": "^0.22.2",
     "bunyan": "^1.2.3",
     "restify": "^2.8.3",
-    "strkio-storage-githubgist": "^0.1.0"
+    "strkio-storage-githubgist": "strkio/strkio-storage-githubgist#2f909b9c562337d3b1a30879291a72e622e2a6c7"
   },
   "devDependencies": {
     "jscs": "^1.10.0",
