@@ -1,0 +1,9 @@
+{
+  "name": "strkio-api-server",
+  "description": "strk.io HTTP API.",
+  "website": "http://api.strk.io/",
+  "repository": "https://github.com/strkio/strkio-api-server",
+  "keywords": [
+    "strkio"
+  ]
+}

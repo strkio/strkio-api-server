@@ -1,0 +1,37 @@
+{
+  "name": "strkio-api-server",
+  "description": "api.strk.io",
+  "version": "0.1.0",
+  "author": "Stanley Shyiko <stanley.shyiko@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strkio/strkio-api-server"
+  },
+  "private": true,
+  "scripts": {
+    "jscs": "./node_modules/jscs/bin/jscs src/",
+    "jshint": "./node_modules/jshint/bin/jshint --config .jshintrc --reporter node_modules/jshint-stylish/stylish.js src/",
+    "lint": "npm run jscs && npm run jshint",
+    "start": "node src/index.js",
+    "start-dev": "NODE_ENV=development ./node_modules/.bin/nodemon src/index.js"
+  },
+  "dependencies": {
+    "es6-shim": "^0.22.2",
+    "bunyan": "^1.2.3",
+    "restify": "^2.8.3",
+    "strkio-storage-githubgist": "^0.1.0"
+  },
+  "devDependencies": {
+    "jscs": "^1.10.0",
+    "jshint": "^2.5.11",
+    "jshint-stylish": "^1.0.0",
+    "nodemon": "^1.2.1"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "keywords": [
+    "strkio"
+  ]
+}
