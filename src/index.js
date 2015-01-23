@@ -1,7 +1,7 @@
 require('es6-shim');
 
 var restify = require('restify');
-var GitHubGist = require('strkio-storage-gist');
+var GitHubGist = require('strkio-storage-githubgist');
 var bunyan = require('bunyan');
 
 var server = restify.createServer({name: 'strkio-api'});
