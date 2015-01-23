@@ -42,7 +42,7 @@ $ npm start # or `npm run start-dev` for development mode
 
 ### Heroku Button
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### Manually
  
@@ -52,6 +52,12 @@ $ npm start # or `npm run start-dev` for development mode
 $ heroku create
 $ git push heroku master
 ```
+
+### Deploying to Azure
+
+### Azure Button
+
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
 ## License
 
