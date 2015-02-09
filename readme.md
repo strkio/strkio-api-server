@@ -53,11 +53,20 @@ $ heroku create
 $ git push heroku master
 ```
 
-### Deploying to Azure
+## Deploying to Azure
 
 ### Azure Button
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
+### Manually
+
+> [azure-cli](https://www.npmjs.com/package/azure-cli) must be installed.
+
+```sh
+$ azure site create SITE_NAME --git
+$ git push azure master
+```
 
 ## License
 
