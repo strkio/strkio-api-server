@@ -31,7 +31,7 @@ function requireAccessToken (req, res, next) {
 }
 
 function notImplemented(req, res, next) {
-  next(new restify.Notimplemented());
+  next(new restify.NotImplementedError());
 }
 
 server.post('/v1/gists', notImplemented);
