@@ -1,8 +1,8 @@
 # strkio-api-server
 
 [strk.io](http://strk.io/) HTTP API. At this point it's primary goal is to
-provide an easy way to integrate external tools (like [hubot-strkio](https://github.com/strkio/hubot-strkio)).
-[strk.io](http://strk.io/) does NOT depend on it.
+provide an easy way to integrate external services/tools (like [hubot-strkio](https://github.com/strkio/hubot-strkio)).
+[strk.io](http://strk.io/) itself does NOT depend on it.
 
 ## Usage
 
